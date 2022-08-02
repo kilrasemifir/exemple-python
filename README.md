@@ -8,3 +8,9 @@ Ce projet contient des exemples de code python.
 ````commandline
 git clone https://github.com/kilrasemifir/exemple-python.git
 ````
+
+## Telecharger les modifications
+
+```commandline
+git pull
+```

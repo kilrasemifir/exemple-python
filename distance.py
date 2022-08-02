@@ -61,6 +61,15 @@ class Distance:
         else:
             raise TypeError("Division impossible entre une distance et une valeur non scalaire")
 
+    def __repr__(self):
+        return "Distance(metres={})".format(self.metres)
+
+    def __str__(self):
+        return "{} metres".format(self.metres)
+
+print(repr(Distance(metres=1)))
+print(Distance(yards=1))
+
 d = Distance(metres=10)
 d2 = Distance(yards=10)
 
